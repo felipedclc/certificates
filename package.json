@@ -1,0 +1,23 @@
+{
+  "name": "felipedclc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipedclc/felipedclc.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipedclc/felipedclc.github.io/issues"
+  },
+  "homepage": "https:\/\/felipedclc.github.io/certificates",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
